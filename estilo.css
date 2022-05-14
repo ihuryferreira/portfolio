@@ -1,0 +1,83 @@
+html, body {
+	background: #000 url('plano_fundo.jpg') no-repeat center;
+	background-size: cover;
+}
+.cabecario nav {
+	background-color: #cccccc;
+	background-image: url('imagem2.jpeg');
+	background-repeat: no-repeat;
+	background-position: top,center;
+	background-size: cover;
+	box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.7);
+}
+img {
+	height: 100%;
+	border: none;
+}
+.navbar span {
+	color: black;
+	border: 1.3px solid;
+}
+@media (max-width: 1023px) {
+	.navbar-burger span:first-child {
+		color: blue;
+		border: 1.3px solid;
+	}
+	.navbar-burger span:nth-child(2) {
+		color: blue;
+		border: 1.3px solid;
+	}
+	.navbar-burger span:nth-child(3) {
+		color: blue;
+		border: 1.3px solid;
+	}
+	#navbarBasicExample {
+		background-color: #cccccc;
+	}
+	#esp {
+		margin: 8px auto;
+	}
+	.footer {
+		height: 100%;
+		max-width: 100%;
+		min-width: 100%;
+	}
+}
+.image img.is-rounded {
+	border: 2px solid black;
+}
+.color {
+	color: white;
+}
+.color:hover {
+	color: yellow;
+}
+.footer {
+	margin: 0px auto;
+    background-color: #000;
+}
+.cores {
+	color: white;
+}
+.cores a {
+	color: blue;
+}
+.cores a:hover {
+	color: yellow;
+}
+.colorx {
+	color: orange;
+	font-weight: bold;
+	font-size: 18px;
+}
+#itema {
+	margin: 0 3px;
+	padding-left: 18px;
+	background-color: blue;
+	border: 1px solid blue;
+	border-radius: 50%;
+	object-fit: contain;
+}
+h6 {
+	color: orange;
+}
