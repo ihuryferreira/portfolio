@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style_thanks.css" />
 
     <!-- =====BOX ICONS===== -->
     <link
@@ -13,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <title>Portfolio website complete</title>
+    <title>Portfólio website complete</title>
   </head>
 
   <body>
@@ -231,7 +232,7 @@
         <h2 class="section-title">Contato</h2>
 
         <div class="contact__container bd-grid">
-          <form action="https://formspree.io/f/mdkepany" class="contact__form" method="post">
+          <form action="https://formspree.io/f/mdkepany" id="contactForm" class="contact__form" method="post" data-redirect="http://127.0.0.1:3000/thanks.html">
             <input type="text" name="name" placeholder="Seu Nome" class="contact__input" required />
             <input
               type="mail"
@@ -279,6 +280,15 @@
         &#169; Bedimcode. All rigths reserved
       </p>
     </footer>
+
+    <div class="modal center-modal">
+      <main class="container">
+        <i class="bx bx-check-circle" id="teste"></i>
+        <h1 class="title">Obrigado!</h1>
+        <p class="paragraph">O formulário foi enviado com sucesso.</p>
+        <button type="button" class="return-btn">Sair</button>
+      </main>
+    </div>
 
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>

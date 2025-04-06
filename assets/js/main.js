@@ -73,3 +73,38 @@ let age = CurrentYear - MyYearBirth;
 if (CurrentDate < myBirthday) age--;
 
 myAge.textContent = `${age}`;
+
+//*===== Script form =====*/
+const form = document.getElementById("contactForm");
+const modal = document.querySelector(".modal"); // Seleciona o modal
+const closeButton = document.querySelector(".return-btn"); // Botão de fechar o modal
+
+form.addEventListener("submit", async function (event) {
+  event.preventDefault(); // Previne o comportamento padrão do envio
+
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      form.reset(); // Reseta os campos do formulário
+      modal.style.display = "flex"; // Exibe o modal
+    } else {
+      alert("Erro ao enviar a mensagem. Por favor, tente novamente.");
+    }
+  } catch (error) {
+    alert("Ocorreu um erro inesperado. Tente novamente.");
+  }
+});
+
+// Evento para fechar o modal
+closeButton.addEventListener("click", function () {
+  modal.style.display = "none";
+});

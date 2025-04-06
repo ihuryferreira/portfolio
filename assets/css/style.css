@@ -50,6 +50,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  position: relative;
 }
 
 h1,
@@ -509,6 +510,76 @@ img {
     right: -2rem;
     bottom: 10em;
   }
+}
+
+.modal {
+  max-width: 600px;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.8));
+  border-radius: 4px;
+}
+
+.modal.center-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform: translate(62%, 140px);
+  z-index: 100;
+}
+
+/*===== Base =====*/
+.modal .container {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--second-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100dvh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.modal .container #teste {
+  margin-top: 1rem;
+  color: #4caf50;
+  font-size: 100px;
+}
+
+.modal .container .title {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.modal .container .paragraph {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--second-color);
+  margin-bottom: var(--mb-2);
+}
+
+.modal .container .return-btn {
+  background-color: var(--second-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: var(--normal-font-size);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
