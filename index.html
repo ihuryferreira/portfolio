@@ -231,23 +231,26 @@
         <h2 class="section-title">Contato</h2>
 
         <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Seu Nome" class="contact__input" />
+          <form action="https://formspree.io/f/mdkepany" class="contact__form" method="post">
+            <input type="text" name="name" placeholder="Seu Nome" class="contact__input" required />
             <input
               type="mail"
+              name="mail"
               placeholder="Seu E-mail"
               class="contact__input"
+              required
             />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="0"
               rows="10"
               class="contact__input"
               placeholder="Sua Mensagem"
+              required
             ></textarea>
             <input
-              type="button"
+              type="submit"
               value="Enviar"
               class="contact__button button"
             />
