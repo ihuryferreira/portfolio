@@ -513,7 +513,7 @@ img {
 }
 
 .modal {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
@@ -558,6 +558,12 @@ img {
   padding: 0.8rem 1rem;
   border-radius: 1rem;
   background-color: #fff;
+}
+
+@media screen and (min-width: 320px) {
+  .modal .container .box {
+    width: 90%;
+  }
 }
 
 .modal .container .box #teste {
