@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+email_debug.log
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# Env files
+.env*
+.env.email
+robots.txt
+.htaccess
