@@ -1,17 +1,17 @@
 export const projects = [
   {
-    title: "Sistema WhatsApp API",
+    title: "Donalds-Delivery",
 
     description:
-      "Sistema para automação de mensagens utilizando Node.js, Express e integração com WhatsApp.",
+      "Projeto Realizado Durante a Sétima - e Melhor - Edição da Full Stack Week!",
 
-    image: "/projeto-whatsapp.png",
+    image: "/Donalds-Delivery.png",
 
-    technologies: ["React", "Node.js", "Express"],
+    technologies: ["Next.js", "TypeScript", "Prisma", "Stripe", "Tailwind CSS", "Zod"],
 
-    github: "#",
+    github: "https://github.com/ihuryferreira/donalds-delivery",
 
-    demo: "#",
+    demo: "https://donalds-delivery.vercel.app/fsw-donalds",
   },
 
   {
@@ -23,9 +23,9 @@ export const projects = [
 
     technologies: ["React", "CSS", "API"],
 
-    github: "#",
+    github: "https://github.com/ihuryferreira/receitasculinariasapp",
 
-    demo: "#",
+    demo: "https://receita-app-eta.vercel.app/",
   },
 
   {
@@ -35,9 +35,9 @@ export const projects = [
 
     image: "/pesquisa.png",
 
-    technologies: ["React", "TypeScript", "Tailwind"],
+    technologies: ["Node.js", "Express", "PostgreSQL", "JWT", "Swagger"],
 
-    github: "#",
+    github: "https://github.com/ihuryferreira/sistema-pesquisa",
 
     demo: "#",
   },
