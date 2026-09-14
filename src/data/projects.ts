@@ -1,4 +1,16 @@
-export const projects = [
+export type ProjectPreview = "donalds" | "recipes" | "survey" | "taskflow";
+
+export interface Project {
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github: string;
+  demo: string;
+  preview: ProjectPreview;
+}
+
+export const projects: Project[] = [
   {
     title: "Donalds-Delivery",
 
@@ -12,6 +24,8 @@ export const projects = [
     github: "https://github.com/ihuryferreira/donalds-delivery",
 
     demo: "https://donalds-delivery.vercel.app/fsw-donalds",
+
+    preview: "donalds",
   },
 
   {
@@ -26,6 +40,8 @@ export const projects = [
     github: "https://github.com/ihuryferreira/receitasculinariasapp",
 
     demo: "https://receita-app-eta.vercel.app/",
+
+    preview: "recipes",
   },
 
   {
@@ -40,5 +56,23 @@ export const projects = [
     github: "https://github.com/ihuryferreira/sistema-pesquisa",
 
     demo: "#",
+
+    preview: "survey",
+  },
+
+  {
+    title: "Waguinho Hambúrgueres",
+
+    description: "Site responsivo para apresentação e divulgação de hambúrgueres artesanais.",
+
+    image: "/projeto-whatsapp.png",
+
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React"],
+
+    github: "#",
+
+    demo: "https://waguinho-hamburgueres.vercel.app/",
+
+    preview: "taskflow",
   },
 ];

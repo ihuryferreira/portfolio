@@ -25,7 +25,7 @@ function ProjectCard({
 }: Props) {
   return (
     <motion.article
-      className="group overflow-hidden rounded-[2rem] border border-slate-800/70 bg-slate-950/90 shadow-[0_24px_80px_-40px_rgba(15,23,42,0.8)] transition duration-300 hover:-translate-y-2 hover:border-sky-500/30 hover:shadow-[0_32px_100px_-48px_rgba(56,189,248,0.28)]"
+      className="group overflow-hidden rounded-4xl border border-slate-800/70 bg-slate-950/90 shadow-[0_24px_80px_-40px_rgba(15,23,42,0.8)] transition duration-300 hover:-translate-y-2 hover:border-sky-500/30 hover:shadow-[0_32px_100px_-48px_rgba(56,189,248,0.28)]"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}
@@ -40,10 +40,10 @@ function ProjectCard({
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
       </div>
 
-      <div className="flex min-h-[22rem] flex-col justify-between gap-6 p-6 sm:p-8">
+      <div className="flex min-h-88 flex-col justify-between gap-6 p-6 sm:p-8">
         <div>
           <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
             {title}
