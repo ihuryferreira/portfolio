@@ -8,6 +8,7 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import FAQ from "./sections/FAQ";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       </main>
 
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
