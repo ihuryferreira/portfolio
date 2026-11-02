@@ -8,12 +8,10 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import FAQ from "./sections/FAQ";
-import Analytics from "./components/Analytics";
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 px-4 sm:px-10">
-      <Analytics />
       <Navbar />
 
       <main id="main-content" className="relative w-full min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 py-24">
