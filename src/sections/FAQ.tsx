@@ -24,9 +24,9 @@ function FAQ() {
               Quais tecnologias aparecem nos projetos?
             </summary>
             <p className="mt-3 text-sm leading-7 text-slate-300">
-              O portfólio apresenta projetos com React, TypeScript, Next.js,
-              Node.js, PostgreSQL e outras tecnologias. A stack específica está
-              descrita em cada projeto.
+              Os projetos usam tecnologias como React, TypeScript, Next.js,
+              Node.js e PostgreSQL. A stack específica está descrita em cada
+              projeto.
             </p>
           </details>
           <details className="py-5">
@@ -45,6 +45,15 @@ function FAQ() {
             <p className="mt-3 text-sm leading-7 text-slate-300">
               Os repositórios públicos estão vinculados aos projetos e ao perfil
               de Ihury Ferreira no GitHub.
+            </p>
+          </details>
+          <details className="py-5">
+            <summary className="cursor-pointer font-medium text-white marker:text-sky-400">
+              Onde Ihury Ferreira está localizado e como atende?
+            </summary>
+            <p className="mt-3 text-sm leading-7 text-slate-300">
+              Ihury Ferreira está em Goiânia, Goiás, Brasil, e atende
+              remotamente.
             </p>
           </details>
         </div>

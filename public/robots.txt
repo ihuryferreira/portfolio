@@ -7,3 +7,4 @@ Disallow: /composer.lock
 Disallow: /composer.phar
 
 Sitemap: https://ihuryferreira.com.br/sitemap.xml
+LLMs-txt: https://ihuryferreira.com.br/llms.txt

@@ -123,7 +123,9 @@ function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Localização</p>
-                  <p className="mt-1 text-sm sm:text-base text-white">Remoto / Brasil</p>
+                  <p className="mt-1 text-sm sm:text-base text-white">
+                    Goiânia, Goiás, Brasil · Atendimento remoto
+                  </p>
                 </div>
               </div>
             </div>

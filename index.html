@@ -78,10 +78,12 @@
             "url": "https://ihuryferreira.com.br/",
             "image": "https://ihuryferreira.com.br/perfil.png",
             "jobTitle": "Desenvolvedor Full Stack",
-            "description": "Desenvolvedor Full Stack no Brasil, com projetos em aplicações web, interfaces responsivas e APIs.",
+            "description": "Desenvolvedor Full Stack em Goiânia, Goiás, Brasil, com projetos em aplicações web, interfaces responsivas e APIs.",
             "email": "contato@ihuryferreira.com.br",
             "address": {
               "@type": "PostalAddress",
+              "addressLocality": "Goiânia",
+              "addressRegion": "Goiás",
               "addressCountry": "BR"
             },
             "knowsAbout": [
@@ -100,11 +102,50 @@
             "@id": "https://ihuryferreira.com.br/#website",
             "url": "https://ihuryferreira.com.br/",
             "name": "Ihury Ferreira | Desenvolvedor Full Stack",
-            "description": "Portfólio pessoal de Ihury Ferreira, desenvolvedor Full Stack no Brasil.",
+            "description": "Portfólio pessoal de Ihury Ferreira, desenvolvedor Full Stack em Goiânia, Goiás, Brasil, com atuação remota.",
             "inLanguage": "pt-BR",
             "publisher": {
               "@id": "https://ihuryferreira.com.br/#person"
             }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://ihuryferreira.com.br/#faq",
+            "inLanguage": "pt-BR",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Quais tecnologias aparecem nos projetos?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Os projetos usam tecnologias como React, TypeScript, Next.js, Node.js e PostgreSQL. A stack específica está descrita em cada projeto."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Como posso falar sobre um projeto?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use o formulário da seção de contato ou envie um e-mail para contato@ihuryferreira.com.br."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Onde posso ver outros trabalhos e o código público?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Os repositórios públicos estão vinculados aos projetos e ao perfil de Ihury Ferreira no GitHub."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Onde Ihury Ferreira está localizado e como atende?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ihury Ferreira está em Goiânia, Goiás, Brasil, e atende remotamente."
+                }
+              }
+            ]
           }
         ]
       }
@@ -121,38 +162,81 @@
     </a>
 
     <div id="root">
-      <div
-        class="fixed inset-0 flex items-center justify-center bg-slate-950 z-50"
-        role="status"
-        aria-label="Carregando portfólio"
-      >
-        <div
-          class="h-10 w-10 animate-spin rounded-full border-4 border-sky-500 border-t-transparent"
-        ></div>
-      </div>
-    </div>
+      <header class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-6 sm:px-6 lg:px-8">
+        <a href="#home" class="font-semibold text-white">Ihury Ferreira</a>
+        <nav aria-label="Navegação principal" class="flex flex-wrap gap-4 text-sm">
+          <a href="#projetos">Projetos</a>
+          <a href="#perguntas-frequentes">Perguntas frequentes</a>
+          <a href="#contato">Contato</a>
+          <a href="https://github.com/ihuryferreira" rel="me">GitHub</a>
+        </nav>
+      </header>
 
-    <noscript>
-      <main class="mx-auto max-w-3xl px-6 py-16 text-slate-100">
-        <h1 class="text-4xl font-semibold">Ihury Ferreira</h1>
-        <p class="mt-3 text-xl">Desenvolvedor Full Stack no Brasil</p>
-        <section class="mt-8">
-          <h2 class="text-2xl font-semibold">Portfólio e contato</h2>
-          <p class="mt-3">
-            Desenvolvo aplicações web, interfaces responsivas e APIs com
-            tecnologias como React, TypeScript e Node.js.
+      <main id="main-content" class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <section id="home" aria-labelledby="home-title" class="py-8 sm:py-16">
+          <p class="text-sm text-sky-300">Portfólio profissional</p>
+          <h1 id="home-title" class="mt-3 text-4xl font-semibold tracking-tight text-white sm:text-6xl">
+            Ihury Ferreira — Desenvolvedor Full Stack
+          </h1>
+          <p class="mt-6 max-w-3xl text-base leading-7 text-slate-300 sm:text-lg">
+            Desenvolvedor Full Stack em Goiânia, Goiás, Brasil, com atuação remota. Desenvolvo aplicações web,
+            interfaces responsivas e APIs com React, TypeScript, Next.js e Node.js.
           </p>
-          <p class="mt-3">
-            Veja meus projetos no
-            <a href="https://github.com/ihuryferreira">GitHub</a> ou escreva
-            para
-            <a href="mailto:contato@ihuryferreira.com.br">
-              contato@ihuryferreira.com.br
-            </a>.
+          <p class="mt-4 text-sm text-slate-300">
+            Tecnologias: React, TypeScript, JavaScript, Next.js, Node.js e PostgreSQL.
           </p>
         </section>
+
+        <section id="projetos" aria-labelledby="projects-title" class="py-8">
+          <h2 id="projects-title" class="text-2xl font-semibold text-white sm:text-3xl">
+            Projetos em destaque
+          </h2>
+          <ul class="mt-4 list-inside list-disc space-y-2 text-slate-300">
+            <li><a href="https://donalds-delivery.vercel.app/fsw-donalds">Donalds Delivery</a> — aplicação de delivery.</li>
+            <li><a href="https://receita-app-eta.vercel.app/">Receitas Culinárias</a> — busca e organização de receitas.</li>
+            <li>Sistema de Pesquisa — dashboard para coleta e visualização de respostas.</li>
+            <li><a href="https://waguinho-hamburgueres.vercel.app/">Waguinho Hambúrgueres</a> — site responsivo para hamburgueria.</li>
+          </ul>
+        </section>
+
+        <section id="perguntas-frequentes" aria-labelledby="faq-title" class="py-8">
+          <h2 id="faq-title" class="text-2xl font-semibold text-white sm:text-3xl">
+            Perguntas frequentes
+          </h2>
+          <article class="mt-5 space-y-5 text-slate-300">
+            <div>
+              <h3 class="font-semibold text-white">Quais tecnologias aparecem nos projetos?</h3>
+              <p class="mt-2">Os projetos usam tecnologias como React, TypeScript, Next.js, Node.js e PostgreSQL. A stack específica está descrita em cada projeto.</p>
+            </div>
+            <div>
+              <h3 class="font-semibold text-white">Como posso falar sobre um projeto?</h3>
+              <p class="mt-2">Envie um e-mail para <a href="mailto:contato@ihuryferreira.com.br">contato@ihuryferreira.com.br</a>.</p>
+            </div>
+            <div>
+              <h3 class="font-semibold text-white">Onde posso ver outros trabalhos e o código público?</h3>
+              <p class="mt-2">Acesse os projetos e o perfil de Ihury Ferreira no <a href="https://github.com/ihuryferreira">GitHub</a>.</p>
+            </div>
+            <div>
+              <h3 class="font-semibold text-white">Onde Ihury Ferreira está localizado e como atende?</h3>
+              <p class="mt-2">Ihury Ferreira está em Goiânia, Goiás, Brasil, e atende remotamente.</p>
+            </div>
+          </article>
+        </section>
+
+        <section id="contato" aria-labelledby="contact-title" class="py-8">
+          <h2 id="contact-title" class="text-2xl font-semibold text-white sm:text-3xl">
+            Contato
+          </h2>
+          <p class="mt-3 text-slate-300">Goiânia, Goiás, Brasil. Atendimento remoto.</p>
+          <p class="mt-2"><a href="mailto:contato@ihuryferreira.com.br">contato@ihuryferreira.com.br</a></p>
+        </section>
       </main>
-    </noscript>
+
+      <footer class="mx-auto max-w-7xl px-4 py-8 text-sm text-slate-400 sm:px-6 lg:px-8">
+        <p>Ihury Ferreira | Desenvolvedor Full Stack</p>
+        <a class="mt-2 inline-block" href="/privacidade.html">Privacidade</a>
+      </footer>
+    </div>
 
     <script type="module" src="/src/main.tsx"></script>
   </body>

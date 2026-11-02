@@ -1,12 +1,13 @@
 # Ihury Ferreira
 
-> Portfólio profissional de Ihury Ferreira, desenvolvedor Full Stack no Brasil. Apresenta projetos web, tecnologias utilizadas e formas de contato.
+> Portfólio profissional de Ihury Ferreira, desenvolvedor Full Stack em Goiânia, Goiás, Brasil. Apresenta projetos web, tecnologias utilizadas e formas de contato.
 
 ## Perfil
 
 - Site oficial: https://ihuryferreira.com.br/
 - Contato: mailto:contato@ihuryferreira.com.br
 - GitHub: https://github.com/ihuryferreira
+- Localização informada: Goiânia, Goiás, Brasil; atuação remota.
 - Áreas e tecnologias apresentadas: desenvolvimento web, React, TypeScript, JavaScript, Node.js, Next.js e PostgreSQL.
 
 ## Projetos
