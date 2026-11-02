@@ -1,0 +1,22 @@
+# Ihury Ferreira
+
+> Portfólio profissional de Ihury Ferreira, desenvolvedor Full Stack no Brasil. Apresenta projetos web, tecnologias utilizadas e formas de contato.
+
+## Perfil
+
+- Site oficial: https://ihuryferreira.com.br/
+- Contato: mailto:contato@ihuryferreira.com.br
+- GitHub: https://github.com/ihuryferreira
+- Áreas e tecnologias apresentadas: desenvolvimento web, React, TypeScript, JavaScript, Node.js, Next.js e PostgreSQL.
+
+## Projetos
+
+- Donalds Delivery: https://donalds-delivery.vercel.app/fsw-donalds
+- Receitas Culinárias: https://receita-app-eta.vercel.app/
+- Sistema de Pesquisa: projeto descrito no portfólio; demonstração pública não informada.
+- Waguinho Hambúrgueres: https://waguinho-hamburgueres.vercel.app/
+
+## Informações
+
+- Portfólio e contato: https://ihuryferreira.com.br/
+- Privacidade: https://ihuryferreira.com.br/privacidade.html

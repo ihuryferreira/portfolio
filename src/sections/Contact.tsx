@@ -107,9 +107,12 @@ function Contact() {
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm text-slate-400">Email</p>
-                  <p className="mt-1 text-sm sm:text-base text-white break-all sm:break-normal selection:bg-sky-500/30">
+                  <a
+                    href="mailto:contato@ihuryferreira.com.br"
+                    className="mt-1 block break-all text-sm text-white selection:bg-sky-500/30 hover:text-sky-300 sm:break-normal sm:text-base"
+                  >
                     contato@ihuryferreira.com.br
-                  </p>
+                  </a>
                 </div>
               </div>
               

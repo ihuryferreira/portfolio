@@ -50,7 +50,7 @@ function About() {
                 Sou um desenvolvedor apaixonado por tecnologia.
               </h3>
               <p className="mt-3 sm:mt-5 text-sm sm:text-base leading-7 sm:leading-8 text-slate-300">
-                Tenho focus na criação de aplicações web modernas, interfaces
+                Tenho foco na criação de aplicações web modernas, interfaces
                 responsivas e soluções eficientes. Minha experiência envolve
                 React, JavaScript, TypeScript, Node.js e criação de APIs.
               </p>
@@ -68,10 +68,10 @@ function About() {
               </div>
               <div className="rounded-3xl border border-slate-800/80 bg-slate-900/95 p-5 sm:p-6 text-center">
                 <p className="text-xs uppercase tracking-[0.22em] text-slate-400">
-                  Tempo
+                  Atuação
                 </p>
                 <p className="mt-2 sm:mt-4 text-base sm:text-lg font-semibold text-white">
-                  +3 anos
+                  Projetos independentes
                 </p>
               </div>
               <div className="rounded-3xl border border-slate-800/80 bg-slate-900/95 p-5 sm:p-6 text-center">

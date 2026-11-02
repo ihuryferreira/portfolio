@@ -4,7 +4,7 @@ import { skills } from "../data/skills";
 
 function Skills() {
   return (
-    <section>
+    <section id="tecnologias" className="py-10 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionTitle title="Tecnologias" subtitle="Minha stack principal" />
 

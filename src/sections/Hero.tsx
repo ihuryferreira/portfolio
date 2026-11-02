@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Code, Sparkles } from "lucide-react";
+import { projects } from "../data/projects";
 
 function Hero() {
   return (
@@ -26,12 +27,16 @@ function Hero() {
           </span>
 
           <h1 className="pt-4 mt-4 text-3xl font-semibold tracking-tight text-white sm:text-6xl">
-            Crio experiências digitais elegantes e rápidas.
+            Ihury Ferreira
           </h1>
 
+          <h2 className="mt-3 text-xl font-medium tracking-tight text-sky-300 sm:text-2xl">
+            Desenvolvedor Full Stack
+          </h2>
+
           <p className="pt-6 mt-4 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
-            Sou Ihury Ferreira e transformo ideias em interfaces reativas,
-            modernas e acessíveis com React, TypeScript e animações suaves.
+            Desenvolvo aplicações web e interfaces responsivas com React,
+            TypeScript e tecnologias do ecossistema JavaScript.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -74,15 +79,17 @@ function Hero() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl border border-slate-800/90 bg-slate-900/95 p-5">
                 <p className="text-xs uppercase tracking-[0.22em] text-slate-400">
-                  Projetos concluídos
+                  Projetos em destaque
                 </p>
-                <p className="mt-2 text-2xl font-semibold text-white">+12</p>
+                <p className="mt-2 text-2xl font-semibold text-white">
+                  {projects.length}
+                </p>
               </div>
               <div className="rounded-3xl border border-slate-800/90 bg-slate-900/95 p-5">
                 <p className="text-xs uppercase tracking-[0.22em] text-slate-400">
-                  Cliente satisfeito
+                  Atuação
                 </p>
-                <p className="mt-2 text-2xl font-semibold text-white">+8</p>
+                <p className="mt-2 text-2xl font-semibold text-white">Web</p>
               </div>
             </div>
           </div>

@@ -27,6 +27,9 @@ function Navbar() {
           <a href="#projetos" className="transition hover:text-white">
             Projetos
           </a>
+          <a href="#perguntas-frequentes" className="transition hover:text-white">
+            FAQ
+          </a>
           <a href="#contato" className="transition hover:text-white">
             Contato
           </a>
@@ -65,6 +68,9 @@ function Navbar() {
           </a>
           <a href="#projetos" className="rounded-xl px-3 py-2 transition hover:bg-slate-800 hover:text-white" onClick={() => setOpen(false)}>
             Projetos
+          </a>
+          <a href="#perguntas-frequentes" className="rounded-xl px-3 py-2 transition hover:bg-slate-800 hover:text-white" onClick={() => setOpen(false)}>
+            FAQ
           </a>
           <a href="#contato" className="rounded-xl px-3 py-2 transition hover:bg-slate-800 hover:text-white" onClick={() => setOpen(false)}>
             Contato

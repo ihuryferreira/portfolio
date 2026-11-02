@@ -10,7 +10,7 @@ function Experience() {
           subtitle="Minha trajetória profissional"
         />
 
-        <motion.div
+        <motion.article
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -50,7 +50,7 @@ function Experience() {
             <li>• Integração com bancos de dados e serviços externos</li>
             <li>• Desenvolvimento de interfaces responsivas</li>
           </ul>
-        </motion.div>
+        </motion.article>
       </div>
     </section>
   );

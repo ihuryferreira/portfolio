@@ -23,3 +23,5 @@ dist-ssr
 robots.txt
 .htaccess
 sitemap.xml
+!public/robots.txt
+!public/sitemap.xml
